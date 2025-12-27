@@ -23,6 +23,19 @@ public class EnhancedSwitch {
             default:
                 System.out.println("was not 1,2,3,4 or 5");
 
+                //enhanced switch statement
+
+                int newSwitchValue = 2;
+
+                switch (newSwitchValue){
+                    case 1 -> System.out.println("Value is 1");
+                    case 2 -> System.out.println("Value is 2");
+                    case 3, 4, 5 -> {
+                        System.out.println("Value is either 3, 4 or 5");
+                        System.out.println("Actually it was "+newSwitchValue);
+                    }
+                    default -> System.out.println("Value is not 1,2 ,3, 4 or 5");
+                }
         }
     }
 }
