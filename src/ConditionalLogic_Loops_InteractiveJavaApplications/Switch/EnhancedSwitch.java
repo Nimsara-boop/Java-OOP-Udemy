@@ -34,7 +34,7 @@ public class EnhancedSwitch {
                         System.out.println("Value is either 3, 4 or 5");
                         System.out.println("Actually it was "+newSwitchValue);
                     }
-                    default -> System.out.println("Value is not 1,2 ,3, 4 or 5");
+                    default -> System.out.println("Value is not sny");
                 }
         }
     }
