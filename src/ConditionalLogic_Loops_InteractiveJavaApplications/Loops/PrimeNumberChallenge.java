@@ -11,5 +11,33 @@ public class PrimeNumberChallenge {
             }
             else return true;
         }
+        return false;
     }
+
+    public static void printPrimeNumbers(){
+
+        int count=0;
+        int i =0;
+
+        for (i = 2; i<=1000; i++){
+            boolean hasDivisor = false;
+            for (int j=2; j<=i/2; j++ ){
+                if (i%j==0) {
+                    hasDivisor = true;
+                }
+            }
+            if (hasDivisor==false){
+                System.out.print(i+" ");
+                count++;
+            }continue;
+        }
+        System.out.println(" ");
+        System.out.println(count+" prime numbers under "+(i-1));
+
+    }
+
+    public static void main(String[] args) {
+        printPrimeNumbers();
+    }
+
 }
