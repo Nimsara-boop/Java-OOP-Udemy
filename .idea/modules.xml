@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java_1.iml" filepath="$PROJECT_DIR$/java_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Udemy.iml" filepath="$PROJECT_DIR$/.idea/Udemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week 12 Threads/Week 12 Threads.iml" filepath="$PROJECT_DIR$/Week 12 Threads/Week 12 Threads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_1/java_1.iml" filepath="$PROJECT_DIR$/java_1/java_1.iml" />
     </modules>
   </component>
 </project>
